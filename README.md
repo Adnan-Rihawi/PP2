@@ -268,7 +268,21 @@ These examples demonstrate various fundamental operations in Bash scripting, inc
     <summary>Your Function</summary>
     
 ```bash
-your code
+ multi_func () {
+    # 1. Arithmetische Operation
+    sum=$(( $1 + $2 ))
+
+    # 2. String-Länge
+    text=$3
+    length=${#text}
+
+    # 3. Numerischer Vergleich
+    if (( sum > length )); then
+        echo "Die Summe ($sum) ist größer als die Länge des Strings ($length)."
+    else
+        echo "Die Summe ($sum) ist kleiner oder gleich der Länge des Strings ($length)."
+    fi
+}
 ```
 
 </details>
