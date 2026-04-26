@@ -72,7 +72,9 @@ Try accessing the `return_value` identifier without prepending `$`.
 
 <details>
     <summary>You Answer</summary>
-    ......
+   Wenn ich versuche, auf die Variable ohne $ zuzugreifen, also z. B. echo return_value, dann gibt die Shell nur den Text return_value aus.
+Das passiert, weil Variablen in der Bash nur mit einem vorangestellten $ ausgewertet werden.
+Ohne $ behandelt die Shell den Namen wie normalen Text und ersetzt ihn nicht durch den gespeicherten Wert.
 </details>
 
 ### Task 3: Function-Identifiers
