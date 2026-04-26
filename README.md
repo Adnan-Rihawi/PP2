@@ -99,7 +99,10 @@ and pressing `enter`.
 
 <details>
     <summary>Calling a Function</summary>
-    Include a screenshot of your function-call!
+
+finden Sie in der Kommentar bei der Abgabe 
+
+
 </details>
 
 ### Task 4: Handling Parameters
