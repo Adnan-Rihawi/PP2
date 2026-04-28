@@ -466,7 +466,9 @@ When you finished that tutorial, open a file in your home directory and manipula
 **How do you save a buffer to a new filename from within `vim`?**
 <details>
     <summary>Your Answer</summary>
-    .....
+  Um einen Buffer in vim unter einem neuen Dateinamen zu speichern, benutze ich den Befehl: 
+    :w neuerDateiname
+
 </details>
  
 
