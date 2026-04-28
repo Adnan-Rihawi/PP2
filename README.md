@@ -404,7 +404,14 @@ Use `rm` to delete a file and `rm -rf` to delete a directory.
 <details>
     <summary>Your Terminal Output</summary>
 ```bash
-your terminal output
+cd ~
+mkdir testordner
+touch testordner/datei.txt
+ls testordner
+datei.txt
+rm -rf testordner
+ls
+
 ```
 </details>
 
