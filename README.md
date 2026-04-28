@@ -363,7 +363,9 @@ You can use a shorthand within your calls to add this string as a prefix to any 
 **Look at task 6 again. What is the complete filepath of your functions file?**
 <details>
     <summary>Your Answer</summary>
-    ....
+   Beim ersten Befehl wurde mit > die Datei ./functions neu erstellt und die erste Funktion hineingeschrieben.
+Beim zweiten Befehl wurde mit >> die zweite Funktion an dieselbe Datei angehängt, ohne die erste zu überschreiben.
+Dadurch enthält die Datei nun beide Funktionsdefinitionen untereinander.
 </details>
 
 All filenames start with a `/`. 
