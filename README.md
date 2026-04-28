@@ -365,7 +365,7 @@ You can use a shorthand within your calls to add this string as a prefix to any 
 <details>
     <summary>Your Answer</summary>
   /home/adnan_rihawi
-
+<details>
 All filenames start with a `/`. 
 If you see this in front of a filename, you'll know, that it is the _absolute_ path on your filesystem. 
 If you see a filename that is prepended with `./`, that means it's a _relative_ path to the currently set common prefix of the users shell-session. 
