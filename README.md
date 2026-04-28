@@ -320,8 +320,9 @@ cat ./function
 **What happend?**
 <details>
     <summary>Your Explaination</summary>
-    .....
-
+ Beim ersten Befehl wurde mit > die Datei ./functions neu erstellt und die erste Funktion hineingeschrieben.
+Beim zweiten Befehl wurde mit >> die zweite Funktion an dieselbe Datei angehängt, ohne die erste zu überschreiben.
+Dadurch enthält die Datei nun beide Funktionsdefinitionen untereinander.
 </details>
 
 --- 
